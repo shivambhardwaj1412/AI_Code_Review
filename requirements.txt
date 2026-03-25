@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+python-dotenv
+PyGithub
+psycopg2-binary
+requests
+langchain
+chromadb
+sentence-transformers
+tree-sitter
+tree-sitter-python
+anthropic
+
+# Push every thing to git hub
+
+# git add .
+# git commit -m "Day 2: Project skeleton setup by Shivam"
+# git push origin main
