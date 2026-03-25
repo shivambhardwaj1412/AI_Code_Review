@@ -5,14 +5,14 @@ PyGithub
 psycopg2-binary
 requests
 langchain
+langchain-anthropic
+langchain-community
+langgraph
 chromadb
 sentence-transformers
-tree-sitter
-tree-sitter-python
+tree-sitter==0.21.3
+tree-sitter-python==0.21.0
 anthropic
-
-# Push every thing to git hub
-
-# git add .
-# git commit -m "Day 2: Project skeleton setup by Shivam"
-# git push origin main
+pyngrok
+plotly
+pandas
