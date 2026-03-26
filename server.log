@@ -1,0 +1,9 @@
+INFO:     Will watch for changes in these directories: ['c:\\Users\\DELL\\AI_Code_Review']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [21136] using WatchFiles
+2026-03-25 23:48:30,496 INFO tree-sitter loaded successfully
+INFO:     Started server process [10292]
+INFO:     Waiting for application startup.
+2026-03-25 23:48:30,901 WARNING DB init skipped: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+INFO:     Application startup complete.
