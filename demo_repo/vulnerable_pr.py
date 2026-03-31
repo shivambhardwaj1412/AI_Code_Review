@@ -12,7 +12,7 @@ import subprocess
 SECRET_KEY = "super_secret_password_123"
 DB_PASSWORD = "admin123"
 API_KEY = "sk-prod-9876543210abcdef"
-AWS_SECRET = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+AWS_SECRET = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEYasew"
 
 
 def get_user(username):

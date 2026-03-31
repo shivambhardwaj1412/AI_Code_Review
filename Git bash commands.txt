@@ -1,0 +1,66 @@
+-> To enter into virtual mode in vs code.    :-     .\venv\Scripts\Activate.ps1  
+-> To starting the server in terminal      :-       python start_server.py    
+
+-> View Dashboard   :-    http://localhost:8000/dashboard
+
+-> push code in vs code (In new terminal) :- 
+
+1. 
+cd test-code-review
+git checkout main
+git checkout -b feature/demo-1
+copy "c:\Users\DELL\AI_Code_Review\demo_repo\vulnerable_pr.py" vulnerable_pr.py
+git add .
+git commit -m "demo run"
+git push origin feature/demo-1
+
+2.
+git checkout main
+>> git checkout -b feature/demo-2
+>> copy "c:\Users\DELL\AI_Code_Review\demo_repo\vulnerable_pr.py" vulnerable_pr.py
+>> git add .
+>> git commit -m "demo run 2"
+>> git push origin feature/demo-2
+
+
+
+
+# Set identity
+git config --global user.name "Aditya Pattnaik"
+git config --global user.email "aditya@gmail.com"
+
+# Go to repo
+cd AI_Code_Review
+
+# Delete branch
+git checkout main
+git push origin --delete feature/add-vulnerable-code
+
+# Delete file
+git rm vulnerable_pr.py
+git commit -m "Removed vulnerable file"
+git push origin main
+
+
+# If git hub token expired:- 
+
+The GITHUB_TOKEN in your .env is expired or invalid. The bot received the webhook but couldn't fetch the PR diff from GitHub because the token was rejected.
+
+Fix — Generate a New GitHub Token
+Go to → github.com/settings/tokens
+
+Click "Generate new token (classic)"
+
+Give it these permissions:
+
+✅ repo (full)
+
+✅ write:discussion
+
+Click Generate token → copy it
+
+Update your .env:
+
+Restart the server:
+
+
